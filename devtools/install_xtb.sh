@@ -30,7 +30,7 @@ else
     source "$CONDA_BASE/etc/profile.d/conda.sh"
 fi
 
-$COMMAND_PKG env create -f devtools/xtb_environment.yml
+$COMMAND_PKG env create -f xtb_environment.yml
 
 # Activate the environment
 if [ "$COMMAND_PKG" == "micromamba" ]; then
